@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deu certo!!!</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Classe de IP</h1>
+        <form id="ipForm">
+            <input type="text" id="octet1" maxlength="3" placeholder="Octeto 1"> .
+            <input type="text" id="octet2" maxlength="3" placeholder="Octeto 2"> .
+            <input type="text" id="octet3" maxlength="3" placeholder="Octeto 3"> .
+            <input type="text" id="octet4" maxlength="3" placeholder="Octeto 4">
+            <br>
+            <button type="button" onclick="calcularClasse()">Calcular</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+
+    <div class="columns-container">
+        <div class="column">
+            <h2>Windows</h2>
+            <img src="windows.gif" alt="Windows GIF">
+            <p>O Windows é um sistema operacional desenvolvido pela Microsoft, amplamente utilizado em computadores pessoais e empresariais ao redor do mundo. Desde o seu lançamento inicial em 1985, o Windows evoluiu significativamente, oferecendo uma interface gráfica de usuário intuitiva que permite aos usuários interagir com o computador de maneira eficiente. Suporta uma vasta gama de aplicativos e dispositivos, tornando-o uma escolha popular para diversas necessidades de computação, desde uso doméstico até ambientes corporativos.</p>
+            <a href="https://www.microsoft.com/pt-br/windows/windows-11" target="_blank"><button>Saiba mais</button></a>
+        </div>
+
+        <div class="column">
+            <h2>Linux</h2>
+            <img src="linux.gif" alt="Linux GIF">
+            <p>Linux é um sistema operacional de código aberto conhecido por sua estabilidade, segurança e flexibilidade. Utilizado em uma ampla variedade de sistemas, desde servidores corporativos até dispositivos embarcados e supercomputadores, o Linux oferece uma plataforma robusta para desenvolvedores e usuários avançados. O diferencial do Linux está na diversidade de distribuições disponíveis, cada uma adaptada para diferentes necessidades e preferências de uso.</p>
+            <a href="https://www.linux.org/" target="_blank"><button>Saiba mais</button></a>
+        </div>
+
+        <div class="column">
+            <h2>macOS</h2>
+            <img src="mac.gif" alt="macOS GIF">
+            <p>O macOS é o sistema operacional desenvolvido pela Apple exclusivamente para seus computadores Mac. Conhecido por sua interface elegante e intuitiva, o macOS oferece uma experiência de usuário coesa e integrada com outros produtos da Apple, como iPhone, iPad e Apple Watch. Além do design refinado, o macOS é reconhecido por sua segurança avançada e desempenho eficiente, tornando-o uma escolha popular entre profissionais criativos e usuários que valorizam simplicidade e produtividade.</p>
+            <a href="https://www.apple.com/br/macos" target="_blank"><button>Saiba mais</button></a>
+        </div>
+    </div>
+
+    <script src="site.js"></script>
+</body>
+</html>
