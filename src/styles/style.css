@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.gif');
+    background-image: url('../images/background.gif');
     background-size: 100% 100%;
     background-position: center;
     color: #fff;
@@ -16,7 +16,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ form button:hover {
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: left;
 }
 
